@@ -21,8 +21,15 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     bootctrl.mt6835
 
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
+# Add Boot Control HAL packages
+PRODUCT_PACKAGES += \
     bootctrl.mt6835 \
+    android.hardware.boot@1.2-service \
+    android.hardware.boot@1.2-impl \
+    android.hardware.boot@1.2-impl.recovery
+
+# Keep these libraries
+PRODUCT_PACKAGES += \
     libgptutils \
     libz \
     libcutils
