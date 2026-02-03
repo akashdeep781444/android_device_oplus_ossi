@@ -30,6 +30,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-realme
 # Build fingerprint from your actual device
 # Get your actual fingerprint with: getprop ro.build.fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="RMX3785-user 13 TP1A.220905.001 1737712741226 release-keys"
+    PRIVATE_BUILD_DESC="sys_mssi_64_cn_armv82-user 14 UKQ1.230924.001 1737876556400 release-keys"
 
-BUILD_FINGERPRINT := realme/RMX3785/RE5C6CL1:13/TP1A.220905.001/1737712741226:user/release-keys
+BUILD_FINGERPRINT := realme/RMX3785IN/RE5C6CL1:14/UKQ1.230924.001/T.R4T2.1c3c35a-7ad3-7ad4:user/release-keys
